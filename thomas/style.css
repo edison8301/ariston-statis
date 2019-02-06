@@ -1,0 +1,24 @@
+h1 {
+	color:#ff0000;
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.judul-1 {
+	font-size:100px; 
+	font-family: 'Major Mono Display';
+}
+
+#header {
+	border: 10px solid #000000;
+	text-align: center;
+}
+
+#content {
+
+}
+
+#footer {
+
+}

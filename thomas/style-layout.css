@@ -1,0 +1,41 @@
+#header h1 {
+	margin:10px;
+	padding:10px;
+	padding-left:50px;
+	background: #ff0000;
+}
+
+.border {
+	border:1px solid #000000;
+}
+
+#content-top {
+	border:1px solid #000000;	
+	min-height: 500px;
+	background: #000000;
+
+}
+
+#content-top .box {
+	margin-top: 230px;
+}
+
+#content-top .title {
+	color:#ffffff;
+	font-size:20px;
+	font-family: Arial;
+	margin-bottom:20px;
+}
+
+#content-top .content {
+	color: #ffffff;
+	line-height: 25px;
+}
+
+
+
+#footer {
+	background: url('images/bg-footer.png') repeat-x;
+	min-height: 10000px;
+	border: 1px solid #000000;
+}
