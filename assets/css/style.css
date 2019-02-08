@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #931925;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+}
+
+.sidebar a {
+    padding: 40px 0px 0px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 40px;
+    cursor: pointer;
+    color: #931925;
+    padding: 80px 10px 5px 100px;
+    display: block;
+    padding: 17px 0px 0px 40px;
+}
+
+section.hero-images {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.25)), url(../images/hero-image.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.about {
+    background: #921824;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+.title-about {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.title-about > h3.bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.title-about > h3.line {
+    font-size: 25px;
+}
+
+img.img-responsive.img-about {
+    width: 500px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ariston Statis</title>
+	<!-- Style Css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- Menu Navigasi -->
+	<div id="navigasiSidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="padding-top: 0px">
+			<i class="fa fa-close"></i>
+		</a>
+		<a href="index.php?r=site/index">Beranda</a>
+		<a href="index.php?r=site/about">Tentang Kami</a>
+		<a href="index.php?r=site/layanan">Layanan</a>
+		<a href="index.php?r=site/product">Produk</a>
+		<a href="#">Blog</a>
+		<a href="#">Kontak</a>
+	</div>
+
+	<!-- Konten Hero Images -->
+	<section class="hero-images">
+		<!-- Icon Untuk Membuka Menu Navigasi -->
+  		<span class="openbtn" onclick="openNav()">
+  			<i class="fa fa-navicon"></i>
+  		</span>
+	</section>
+
+	<!-- Konten Tentang Ariston -->
+	<section class="about">
+		<div class="title-about" style="text-align: center;">
+			<h3>Tentang Ariston.</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="assets/images/about-image.png" class="img-responsive img-about">
+			</div>
+			<div class="col-sm-7">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">1930s</h3>
+							<h3 class="line">Foundation</h3>
+						</div>
+						<div class="description-about">
+							Aristed Merloni mendirikan perusahaan "Industrie Merloni" di Marche Region of Italy, dan memulai produksi alat timbang.
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">1990s</h3>
+							<h3 class="line">Global Expansion</h3>
+						</div>
+						<div class="description-about">
+							Dengan peluncuran di China dan di Russia, Ariston memulai evolusinya sebagai merek global.
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">2010s</h3>
+							<h3 class="line">Adversiting and Positioning</h3>
+						</div>
+						<div class="description-about">
+							Pengembangan positioning merek Ariston dalam kenyamanan termal dimulai dengan definisi utama dari identitas visual Ariston yang baru. Pertumbuhan global terus berlanjut, dari Amerika ke Asia.
+						</div>
+					</div>
+					<!--  -->
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">1960s</h3>
+							<h3 class="line">Water Heating</h3>
+						</div>
+						<div class="description-about">
+							Merek Ariston diluncurkan dan produksi perdana pemanas air.
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">2000s</h3>
+							<h3 class="line">Renewable</h3>
+						</div>
+						<div class="description-about">
+							Kami berhasil mengembangkan dan meluncurkan model baru kami di kategori Heat Pump, yang menandai perkembangan inovatif dan teknologi pemanas yang berkelanjutan.
+						</div>
+					</div>
+					<div class="col-sm-4">
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="title-about">
+							<h3 class="bold">1980s</h3>
+							<h3 class="line">Heating</h3>
+						</div>
+						<div class="description-about">
+							Ariston mengkonsolidasikan kepemimpinan pasar dalam industri pemanas air dan telah memulai produksi boiler. 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+
+<script>
+	function openNav() {
+		document.getElementById("navigasiSidebar").style.width = "180px";
+	}
+
+	function closeNav() {
+		document.getElementById("navigasiSidebar").style.width = "0px";
+	}
+</script>
