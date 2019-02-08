@@ -59,6 +59,7 @@ section.about {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 25px;
     color: white;
 }
 
@@ -78,6 +79,10 @@ section.about {
 
 img.img-responsive.img-about {
     width: 500px;
+}
+
+section.category {
+    background: #921824;
 }
 
 @media screen and (max-height: 450px) {
